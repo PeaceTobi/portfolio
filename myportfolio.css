@@ -85,7 +85,7 @@ h1{
     padding: 200px 10px 100px 100px; 
      color: white; 
     line-height: 40px;
-    font-family: 'pacifico',cursive;
+    /* font-family: 'pacifico',cursive; */
     width: 50%;
     height: 100%;
     
@@ -93,7 +93,7 @@ h1{
 .hero-left h1{
     font-size: 30px;
 }
-.hero-left .fab,
+/* .hero-left .fab,
 .hero-left .fa-angle-up{
     background-color: rgb(18, 145, 49);
 	color: white;
@@ -108,12 +108,12 @@ h1{
 	text-align: center;
 	display: none;
 	animation: whatsapp 1.5s linear 1;
-}
+} */
 .hero-right{
     width: 50%;
     
 }
-.hero-right .fa-angle-up{
+/* .hero-right .fa-angle-up{
     right: calc(1vw + 0.8%);
 	bottom: 3vh;
 	padding: 0.5vw;
@@ -131,7 +131,7 @@ h1{
 	to {
 		transform: translate(0, 0);
 	}
-}
+} */
 
 .hero-right{
     
@@ -170,7 +170,7 @@ h1{
     padding: 50px 100px 100px 100px;
     color: black;
     line-height: 40px;
-    font-family: 'rubik distressed',cursive;
+    /* font-family: 'rubik distressed',cursive; */
     width: 50%;
     height: 100%;
     
@@ -453,6 +453,8 @@ footer > p > a {
         display: flex;
         justify-content: center;
         width: 100%;
+        padding-top: 30px;
+        height: 100%;
     }
     .about-container{
         flex-direction: column-reverse;
